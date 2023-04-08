@@ -1,2 +1,1 @@
-# IPYNB_Renderer
-Python Package
+# IPYNB_Renderer Python Package

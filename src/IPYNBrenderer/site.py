@@ -19,7 +19,7 @@ def is_valid(URl: str) -> bool:
 def render_site(URl: str, width: str="100%", height: str="600") -> str:
     try:
         if is_valid(URl):
-            response = display.Iframe(src=URL, width=width, height=height)
+            response = display.IFrame(src=URL, width=width, height=height)
             display.display(response)
             return "success"
         else:
